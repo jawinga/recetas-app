@@ -1,0 +1,19 @@
+<div class="receta-card">
+  <div class="receta-img">
+    <img [src]="" [alt]="" />
+    <div class="categoria" [ngClass]="receta.categoria">
+      {{ receta.categoria }}
+    </div>
+    <div class="favorito" (click)="esFavorito()" [ngClass]="receta.categoria">
+      {{ receta.esFavorito ? "❤️" : "🤍" }}
+    </div>
+  </div>
+
+  <div class="receta-info">
+    <h2 class="nombre">{{ receta.nombre }}</h2>
+    <div class="detalles">
+      <span>{{ receta.ingredientes.length }} ingredientes</span>
+      <span>{{ receta.tiempo }} min</span>
+    </div>
+  </div>
+</div>
