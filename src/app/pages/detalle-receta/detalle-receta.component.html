@@ -1,1 +1,38 @@
-<p>detalle-receta works!</p>
+<div class="receta-container">
+  <div class="receta-img">
+    <img
+      src="https://source.unsplash.com/400x300/?chocolate-cake"
+      alt="Tarta de Chocolate"
+    />
+    <span class="categoria">{{ receta.categoria }}</span>
+    <span class="favorito">{{ receta.esFavorito ? "❤️" : "🤍" }}</span>
+  </div>
+  <div class="receta-info">
+    <h1 class="nombre">{{ receta.nombre }}</h1>
+    <p class="descripcion">
+      {{ receta.descripcion }}
+    </p>
+    <div class="detalles">
+      <span>Tiempo: {{ receta.tiempo }} min</span>
+      <span>Calorías: {{ receta.calorias }} kcal</span>
+    </div>
+    <div class="ingredientes">
+      <h2>Ingredientes</h2>
+      <ul>
+        <li *ngFor="let ingrediente of receta.ingredientes">
+          {{ ingrediente }}
+        </li>
+      </ul>
+    </div>
+    <div class="pasos">
+      <h2>Pasos</h2>
+      <ol>
+        <li *ngFor="let paso of receta.pasos">{{ paso }}</li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+<ng-template #cargando>
+  <p>Cargando receta...</p>
+</ng-template>

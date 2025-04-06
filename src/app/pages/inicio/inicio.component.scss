@@ -1,0 +1,124 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f5f6fa;
+  margin: 0;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  padding: 40px 0;
+  background: linear-gradient(145deg, #fefefe 0%, #f5e6d3 100%);
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12), 0 4px 15px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(255, 215, 0, 0.1);
+  margin-bottom: 40px;
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.header:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.18), 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-color: rgba(255, 215, 0, 0.3);
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e272e;
+  margin: 0 0 15px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #57606f;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Options Section */
+.options {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.option-card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12), 0 4px 15px rgba(0, 0, 0, 0.06);
+  background: linear-gradient(145deg, #fefefe 0%, #f5e6d3 100%);
+  border: 1px solid rgba(255, 215, 0, 0.1);
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.option-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.18), 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-color: rgba(255, 215, 0, 0.3);
+}
+
+.option-img {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: #e9ecef;
+}
+
+.option-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.option-card:hover .option-img img {
+  transform: scale(1.08);
+}
+
+.option-img::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.2), transparent);
+}
+
+.option-info {
+  padding: 20px;
+}
+
+.option-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 10px;
+  color: #1e272e;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.option-desc {
+  font-size: 1rem;
+  color: #57606f;
+  margin: 0;
+  line-height: 1.5;
+}

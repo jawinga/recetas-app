@@ -1,0 +1,138 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f5f6fa;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.receta-container {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12), 0 4px 15px rgba(0, 0, 0, 0.06);
+  background: linear-gradient(145deg, #fefefe 0%, #f5e6d3 100%);
+  border: 1px solid rgba(255, 215, 0, 0.1);
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.receta-container:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.18), 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-color: rgba(255, 215, 0, 0.3);
+}
+
+.receta-img {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background: #e9ecef;
+}
+
+.receta-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.receta-img:hover img {
+  transform: scale(1.08);
+}
+
+.receta-img::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.2), transparent);
+}
+
+.categoria {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: linear-gradient(45deg, #9b59b6, #e74c3c); /* Postre gradient */
+  color: white;
+  font-size: 0.9rem;
+  padding: 8px 15px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 3px 10px rgba(155, 89, 182, 0.4);
+}
+
+.favorito {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 2rem;
+  color: #f1c40f; /* Favorito state */
+  text-shadow: 0 3px 6px rgba(241, 196, 15, 0.5);
+  transition: all 0.3s ease;
+}
+
+.favorito:hover {
+  transform: rotate(20deg) scale(1.3);
+  color: #ffd700;
+}
+
+.receta-info {
+  padding: 30px;
+}
+
+.nombre {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 15px;
+  color: #1e272e;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.descripcion {
+  font-size: 1.1rem;
+  color: #57606f;
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+
+.detalles {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.detalles span {
+  padding: 8px 15px;
+  background: linear-gradient(135deg, #dfe6e9 0%, #b2bec3 100%);
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #2d3436;
+}
+
+.ingredientes,
+.pasos {
+  margin-bottom: 30px;
+}
+
+.ingredientes h2,
+.pasos h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1e272e;
+  margin-bottom: 15px;
+}
+
+.ingredientes ul,
+.pasos ol {
+  padding-left: 20px;
+  color: #57606f;
+  font-size: 1rem;
+  line-height: 1.6;
+}

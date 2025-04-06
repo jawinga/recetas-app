@@ -1,1 +1,165 @@
-<p>inicio works!</p>
+<body>
+  <div class="container">
+    <!-- Header Section -->
+    <header class="header">
+      <h1>Bienvenidos a Recetas Deliciosas</h1>
+      <p>
+        Explora una variedad de recetas fáciles, sabrosas y para todos los
+        gustos. ¡Encuentra tu próxima comida favorita!
+      </p>
+    </header>
+
+    <!-- Options Section -->
+    <section class="options">
+      <a href="#lista-recetas" class="option-card">
+        <div class="option-img">
+          <img
+            src="https://source.unsplash.com/400x300/?recipes"
+            alt="Lista de Recetas"
+          />
+        </div>
+        <a routerLink="/lista-recetas-page">
+          <div class="option-info">
+            <h2 class="option-title">Lista de Recetas</h2>
+            <p class="option-desc">
+              Descubre todas nuestras recetas organizadas para que encuentres la
+              perfecta.
+            </p>
+          </div>
+        </a>
+      </a>
+
+      <a href="#formulario" class="option-card">
+        <div class="option-img">
+          <img
+            src="https://source.unsplash.com/400x300/?cooking"
+            alt="Formulario"
+          />
+        </div>
+        <div class="option-info">
+          <h2 class="option-title">Añade tu Receta</h2>
+          <p class="option-desc">
+            Comparte tu receta favorita con nuestra comunidad completando el
+            formulario.
+          </p>
+        </div>
+      </a>
+    </section>
+
+    <form [formGroup]="recetaForm" (ngSubmit)="guardarReceta()">
+      <div>
+        <label for="nombre">Nombre de la receta:</label>
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          formControlName="nombre"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="categoria">Categoría:</label>
+        <select id="categoria" name="categoria" formControlName="categoria">
+          <option value="express">Express</option>
+          <option value="cena">Cena</option>
+          <option value="postre">Postre</option>
+          <option value="internacional">Internacional</option>
+          <option value="sano">Sano</option>
+          <option value="elaborado">Elaborado</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="descripcion">Descripción:</label>
+        <textarea
+          id="descripcion"
+          name="descripcion"
+          formControlName="descripcion"
+          required
+        ></textarea>
+      </div>
+
+      <div>
+        <label for="ingredientes">Ingredientes:</label>
+        <input
+          type="text"
+          id="ingredientes"
+          name="ingredientes"
+          [(ngModel)]="nuevoIngrediente"
+          [ngModelOptions]="{ standalone: true }"
+          required
+        />
+        <button (click)="aniadirIngrediente()">Añadir</button>
+      </div>
+      <div>
+        <label for="pasos">Pasos:</label>
+        <textarea
+          id="pasos"
+          name="pasos"
+          [(ngModel)]="pasoNuevo"
+          [ngModelOptions]="{ standalone: true }"
+          required
+        >
+        </textarea>
+
+        <button (click)="aniadirPaso()">Añadir</button>
+      </div>
+      <div>
+        <label for="tiempo">Tiempo (en min):</label>
+        <input
+          type="number"
+          id="tiempo"
+          name="tiempo"
+          formControlName="tiempo"
+          required
+        />
+      </div>
+      <div>
+        <label for="calorias">Calorías (en kcal):</label>
+        <input
+          type="number"
+          id="calorias"
+          name="calorias"
+          formControlName="calorias"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="imagen">URL de la imagen:</label>
+        <input type="file" id="imagen" name="imagen" formControlName="imagen" />
+      </div>
+      <div>
+        <label for="esVegetariano">Es una receta vegetariana?</label>
+        <input
+          type="checkbox"
+          id="esVegetariano"
+          name="esVegetariano"
+          formControlName="esVegetariano"
+        />
+      </div>
+
+      <button type="submit">Añadir Receta</button>
+      <button type="reset">Reset</button>
+
+      <h3>Ingredientes:</h3>
+      <div>
+        <ul>
+          <li *ngFor="let i of ingredientes">
+            {{ i }}
+          </li>
+        </ul>
+      </div>
+
+      <h3>Pasos:</h3>
+      <div>
+        <ol>
+          <li *ngFor="let p of pasos">
+            {{ p }}
+          </li>
+        </ol>
+      </div>
+    </form>
+  </div>
+</body>

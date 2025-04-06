@@ -2,6 +2,8 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Receta } from '../../models/receta';
 import { OnInit } from '@angular/core';
 import { NgClass, NgIf } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-lista-recetas',
@@ -30,5 +32,11 @@ export class ListaRecetasComponent implements OnInit {
   esFavorito(): void {
     this.receta.esFavorito = !this.receta.esFavorito;
     this.cambiarFavorito.emit(this.receta);
+  }
+
+  constructor(private router: Router) {}
+
+  verDetalle() {
+    this.router.navigate(['/detalle-receta', this.receta.id]);
   }
 }

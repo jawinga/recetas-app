@@ -1,8 +1,7 @@
-@for (receta of recetas; track receta.id) {
+<nav class="navbar">
+  <a class="nav-item" routerLink="/inicio">Inicio</a>
+  <a class="nav-item" routerLink="/lista-recetas-page">Lista de Recetas</a>
+  <a class="nav-item" routerLink="/">Receta Aleatoria</a>
+</nav>
 
-<app-lista-recetas
-  [receta]="receta"
-  (cambiarFavorito)="enCambiarFavorito($event)"
-></app-lista-recetas>
-
-}
+<router-outlet></router-outlet>
