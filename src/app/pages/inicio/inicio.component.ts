@@ -20,9 +20,9 @@ import { Receta } from '../../models/receta';
 })
 export class InicioComponent {
   public recetaForm!: FormGroup;
+
   constructor(private fb: FormBuilder, private recetaService: RecetaService) {
     this.crearForm();
-    this.recetaService.actualizarReceta().subscribe({});
   }
 
   public nuevoIngrediente?: String = '';
@@ -40,8 +40,8 @@ export class InicioComponent {
       esVegetariano: [null],
       calorias: [null, [Validators.required, Validators.minLength(1)]],
       tiempo: [null, [Validators.required, Validators.min(1)]],
-      pasos: [null, [Validators.required, Validators.min(1)]],
-      ingredientes: [null, [Validators.required, Validators.min(1)]],
+      pasos: [null],
+      ingredientes: [null],
     });
   }
 
@@ -74,6 +74,22 @@ export class InicioComponent {
       this.recetaForm.patchValue({
         ingredientes: this.ingredientes,
         pasos: this.pasos,
+      });
+
+      let nuevaReceta = this.recetaForm.value;
+      console.log(nuevaReceta);
+
+      this.recetaService.crearReceta(nuevaReceta).subscribe({
+        next: (response) => {
+          console.log('Se ha añadido la receta al JSON DB', response);
+        },
+
+        error: (error) => {
+          console.log('No se ha podido añadir al JSON DB', error);
+        },
+        complete: () => {
+          console.log('Trabajo asíncrono acabado');
+        },
       });
 
       this.pasos = [];

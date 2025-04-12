@@ -9,6 +9,8 @@ import { Receta } from '../models/receta';
 export class RecetaService {
   public apiURL = 'http://localhost:3000/recetas';
 
+  public recetasForm: Receta[] = [];
+
   constructor(private http: HttpClient) {}
 
   getRecetas(): Observable<Receta[]> {

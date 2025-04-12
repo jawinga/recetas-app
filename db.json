@@ -1,7 +1,7 @@
 {
   "recetas": [
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Tortilla Española",
       "ingredientes": [
         "Ingrediente 1",
@@ -11,9 +11,13 @@
         "Ingrediente 5",
         "Ingrediente 6"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3"
+      ],
       "tiempo": 67,
-      "imagen": "https://source.unsplash.com/400x300/?food,0",
+      "imagen": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=3160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "categoria": "internacional",
       "calorias": 207,
       "descripcion": "Deliciosa receta de Tortilla Española.",
@@ -21,7 +25,7 @@
       "esVegetariano": true
     },
     {
-      "id": 2,
+      "id": "2",
       "nombre": "Paella Valenciana",
       "ingredientes": [
         "Ingrediente 1",
@@ -30,7 +34,13 @@
         "Ingrediente 4",
         "Ingrediente 5"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4", "Paso 5"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4",
+        "Paso 5"
+      ],
       "tiempo": 77,
       "imagen": "https://source.unsplash.com/400x300/?food,1",
       "categoria": "elaborado",
@@ -40,10 +50,19 @@
       "esVegetariano": true
     },
     {
-      "id": 3,
+      "id": "3",
       "nombre": "Gazpacho",
-      "ingredientes": ["Ingrediente 1", "Ingrediente 2", "Ingrediente 3"],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4"],
+      "ingredientes": [
+        "Ingrediente 1",
+        "Ingrediente 2",
+        "Ingrediente 3"
+      ],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4"
+      ],
       "tiempo": 22,
       "imagen": "https://source.unsplash.com/400x300/?food,2",
       "categoria": "desayuno",
@@ -53,10 +72,19 @@
       "esVegetariano": false
     },
     {
-      "id": 4,
+      "id": "4",
       "nombre": "Pollo al curry",
-      "ingredientes": ["Ingrediente 1", "Ingrediente 2", "Ingrediente 3"],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4"],
+      "ingredientes": [
+        "Ingrediente 1",
+        "Ingrediente 2",
+        "Ingrediente 3"
+      ],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4"
+      ],
       "tiempo": 79,
       "imagen": "https://source.unsplash.com/400x300/?food,3",
       "categoria": "sano",
@@ -66,7 +94,7 @@
       "esVegetariano": true
     },
     {
-      "id": 5,
+      "id": "5",
       "nombre": "Pizza Margarita",
       "ingredientes": [
         "Ingrediente 1",
@@ -76,7 +104,12 @@
         "Ingrediente 5",
         "Ingrediente 6"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4"
+      ],
       "tiempo": 65,
       "imagen": "https://source.unsplash.com/400x300/?food,4",
       "categoria": "internacional",
@@ -86,7 +119,7 @@
       "esVegetariano": false
     },
     {
-      "id": 6,
+      "id": "6",
       "nombre": "Hamburguesa Veggie",
       "ingredientes": [
         "Ingrediente 1",
@@ -96,7 +129,10 @@
         "Ingrediente 5",
         "Ingrediente 6"
       ],
-      "pasos": ["Paso 1", "Paso 2"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2"
+      ],
       "tiempo": 62,
       "imagen": "https://source.unsplash.com/400x300/?food,5",
       "categoria": "postre",
@@ -106,7 +142,7 @@
       "esVegetariano": true
     },
     {
-      "id": 7,
+      "id": "7",
       "nombre": "Ensalada César",
       "ingredientes": [
         "Ingrediente 1",
@@ -115,7 +151,10 @@
         "Ingrediente 4",
         "Ingrediente 5"
       ],
-      "pasos": ["Paso 1", "Paso 2"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2"
+      ],
       "tiempo": 55,
       "imagen": "https://source.unsplash.com/400x300/?food,6",
       "categoria": "sano",
@@ -125,7 +164,7 @@
       "esVegetariano": true
     },
     {
-      "id": 8,
+      "id": "8",
       "nombre": "Tacos de carne",
       "ingredientes": [
         "Ingrediente 1",
@@ -133,7 +172,10 @@
         "Ingrediente 3",
         "Ingrediente 4"
       ],
-      "pasos": ["Paso 1", "Paso 2"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2"
+      ],
       "tiempo": 37,
       "imagen": "https://source.unsplash.com/400x300/?food,7",
       "categoria": "elaborado",
@@ -143,7 +185,7 @@
       "esVegetariano": true
     },
     {
-      "id": 9,
+      "id": "9",
       "nombre": "Sushi roll",
       "ingredientes": [
         "Ingrediente 1",
@@ -152,7 +194,12 @@
         "Ingrediente 4",
         "Ingrediente 5"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4"
+      ],
       "tiempo": 70,
       "imagen": "https://source.unsplash.com/400x300/?food,8",
       "categoria": "elaborado",
@@ -162,7 +209,7 @@
       "esVegetariano": true
     },
     {
-      "id": 10,
+      "id": "10",
       "nombre": "Pasta Alfredo",
       "ingredientes": [
         "Ingrediente 1",
@@ -170,7 +217,12 @@
         "Ingrediente 3",
         "Ingrediente 4"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4"
+      ],
       "tiempo": 40,
       "imagen": "https://source.unsplash.com/400x300/?food,9",
       "categoria": "elaborado",
@@ -180,7 +232,7 @@
       "esVegetariano": false
     },
     {
-      "id": 11,
+      "id": "11",
       "nombre": "Couscous marroquí",
       "ingredientes": [
         "Ingrediente 1",
@@ -190,7 +242,11 @@
         "Ingrediente 5",
         "Ingrediente 6"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3"
+      ],
       "tiempo": 78,
       "imagen": "https://source.unsplash.com/400x300/?food,10",
       "categoria": "elaborado",
@@ -200,7 +256,7 @@
       "esVegetariano": true
     },
     {
-      "id": 12,
+      "id": "12",
       "nombre": "Ceviche peruano",
       "ingredientes": [
         "Ingrediente 1",
@@ -208,7 +264,11 @@
         "Ingrediente 3",
         "Ingrediente 4"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3"
+      ],
       "tiempo": 78,
       "imagen": "https://source.unsplash.com/400x300/?food,11",
       "categoria": "desayuno",
@@ -218,7 +278,7 @@
       "esVegetariano": true
     },
     {
-      "id": 13,
+      "id": "13",
       "nombre": "Risotto de setas",
       "ingredientes": [
         "Ingrediente 1",
@@ -227,7 +287,10 @@
         "Ingrediente 4",
         "Ingrediente 5"
       ],
-      "pasos": ["Paso 1", "Paso 2"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2"
+      ],
       "tiempo": 20,
       "imagen": "https://source.unsplash.com/400x300/?food,12",
       "categoria": "desayuno",
@@ -237,7 +300,7 @@
       "esVegetariano": true
     },
     {
-      "id": 14,
+      "id": "14",
       "nombre": "Sopa de miso",
       "ingredientes": [
         "Ingrediente 1",
@@ -246,7 +309,13 @@
         "Ingrediente 4",
         "Ingrediente 5"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4", "Paso 5"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4",
+        "Paso 5"
+      ],
       "tiempo": 85,
       "imagen": "https://source.unsplash.com/400x300/?food,13",
       "categoria": "desayuno",
@@ -256,10 +325,18 @@
       "esVegetariano": false
     },
     {
-      "id": 15,
+      "id": "15",
       "nombre": "Shakshuka",
-      "ingredientes": ["Ingrediente 1", "Ingrediente 2", "Ingrediente 3"],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3"],
+      "ingredientes": [
+        "Ingrediente 1",
+        "Ingrediente 2",
+        "Ingrediente 3"
+      ],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3"
+      ],
       "tiempo": 71,
       "imagen": "https://source.unsplash.com/400x300/?food,14",
       "categoria": "postre",
@@ -269,7 +346,7 @@
       "esVegetariano": false
     },
     {
-      "id": 16,
+      "id": "16",
       "nombre": "Ramen casero",
       "ingredientes": [
         "Ingrediente 1",
@@ -277,7 +354,13 @@
         "Ingrediente 3",
         "Ingrediente 4"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4", "Paso 5"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4",
+        "Paso 5"
+      ],
       "tiempo": 68,
       "imagen": "https://source.unsplash.com/400x300/?food,15",
       "categoria": "desayuno",
@@ -287,7 +370,7 @@
       "esVegetariano": false
     },
     {
-      "id": 17,
+      "id": "17",
       "nombre": "Galletas de avena",
       "ingredientes": [
         "Ingrediente 1",
@@ -296,7 +379,10 @@
         "Ingrediente 4",
         "Ingrediente 5"
       ],
-      "pasos": ["Paso 1", "Paso 2"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2"
+      ],
       "tiempo": 20,
       "imagen": "https://source.unsplash.com/400x300/?food,16",
       "categoria": "sano",
@@ -306,10 +392,17 @@
       "esVegetariano": true
     },
     {
-      "id": 18,
+      "id": "18",
       "nombre": "Brownie de chocolate",
-      "ingredientes": ["Ingrediente 1", "Ingrediente 2", "Ingrediente 3"],
-      "pasos": ["Paso 1", "Paso 2"],
+      "ingredientes": [
+        "Ingrediente 1",
+        "Ingrediente 2",
+        "Ingrediente 3"
+      ],
+      "pasos": [
+        "Paso 1",
+        "Paso 2"
+      ],
       "tiempo": 29,
       "imagen": "https://source.unsplash.com/400x300/?food,17",
       "categoria": "internacional",
@@ -319,7 +412,7 @@
       "esVegetariano": false
     },
     {
-      "id": 19,
+      "id": "19",
       "nombre": "Bizcocho de yogur",
       "ingredientes": [
         "Ingrediente 1",
@@ -328,7 +421,13 @@
         "Ingrediente 4",
         "Ingrediente 5"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4", "Paso 5"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4",
+        "Paso 5"
+      ],
       "tiempo": 49,
       "imagen": "https://source.unsplash.com/400x300/?food,18",
       "categoria": "sano",
@@ -338,7 +437,7 @@
       "esVegetariano": true
     },
     {
-      "id": 20,
+      "id": "20",
       "nombre": "Pancakes",
       "ingredientes": [
         "Ingrediente 1",
@@ -347,7 +446,11 @@
         "Ingrediente 4",
         "Ingrediente 5"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3"
+      ],
       "tiempo": 38,
       "imagen": "https://source.unsplash.com/400x300/?food,19",
       "categoria": "elaborado",
@@ -357,7 +460,7 @@
       "esVegetariano": false
     },
     {
-      "id": 21,
+      "id": "21",
       "nombre": "Crepes",
       "ingredientes": [
         "Ingrediente 1",
@@ -367,7 +470,10 @@
         "Ingrediente 5",
         "Ingrediente 6"
       ],
-      "pasos": ["Paso 1", "Paso 2"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2"
+      ],
       "tiempo": 82,
       "imagen": "https://source.unsplash.com/400x300/?food,20",
       "categoria": "internacional",
@@ -377,7 +483,7 @@
       "esVegetariano": false
     },
     {
-      "id": 22,
+      "id": "22",
       "nombre": "Tarta de queso",
       "ingredientes": [
         "Ingrediente 1",
@@ -385,7 +491,10 @@
         "Ingrediente 3",
         "Ingrediente 4"
       ],
-      "pasos": ["Paso 1", "Paso 2"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2"
+      ],
       "tiempo": 67,
       "imagen": "https://source.unsplash.com/400x300/?food,21",
       "categoria": "desayuno",
@@ -395,7 +504,7 @@
       "esVegetariano": true
     },
     {
-      "id": 23,
+      "id": "23",
       "nombre": "Muffins",
       "ingredientes": [
         "Ingrediente 1",
@@ -403,7 +512,10 @@
         "Ingrediente 3",
         "Ingrediente 4"
       ],
-      "pasos": ["Paso 1", "Paso 2"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2"
+      ],
       "tiempo": 77,
       "imagen": "https://source.unsplash.com/400x300/?food,22",
       "categoria": "sano",
@@ -413,10 +525,17 @@
       "esVegetariano": true
     },
     {
-      "id": 24,
+      "id": "24",
       "nombre": "Donuts",
-      "ingredientes": ["Ingrediente 1", "Ingrediente 2", "Ingrediente 3"],
-      "pasos": ["Paso 1", "Paso 2"],
+      "ingredientes": [
+        "Ingrediente 1",
+        "Ingrediente 2",
+        "Ingrediente 3"
+      ],
+      "pasos": [
+        "Paso 1",
+        "Paso 2"
+      ],
       "tiempo": 62,
       "imagen": "https://source.unsplash.com/400x300/?food,23",
       "categoria": "internacional",
@@ -426,10 +545,19 @@
       "esVegetariano": true
     },
     {
-      "id": 25,
+      "id": "25",
       "nombre": "Empanadas argentinas",
-      "ingredientes": ["Ingrediente 1", "Ingrediente 2", "Ingrediente 3"],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4"],
+      "ingredientes": [
+        "Ingrediente 1",
+        "Ingrediente 2",
+        "Ingrediente 3"
+      ],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4"
+      ],
       "tiempo": 86,
       "imagen": "https://source.unsplash.com/400x300/?food,24",
       "categoria": "postre",
@@ -439,7 +567,7 @@
       "esVegetariano": false
     },
     {
-      "id": 26,
+      "id": "26",
       "nombre": "Croquetas de jamón",
       "ingredientes": [
         "Ingrediente 1",
@@ -449,7 +577,13 @@
         "Ingrediente 5",
         "Ingrediente 6"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4", "Paso 5"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4",
+        "Paso 5"
+      ],
       "tiempo": 52,
       "imagen": "https://source.unsplash.com/400x300/?food,25",
       "categoria": "desayuno",
@@ -459,7 +593,7 @@
       "esVegetariano": false
     },
     {
-      "id": 27,
+      "id": "27",
       "nombre": "Falafel",
       "ingredientes": [
         "Ingrediente 1",
@@ -467,7 +601,12 @@
         "Ingrediente 3",
         "Ingrediente 4"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4"
+      ],
       "tiempo": 18,
       "imagen": "https://source.unsplash.com/400x300/?food,26",
       "categoria": "desayuno",
@@ -477,7 +616,7 @@
       "esVegetariano": true
     },
     {
-      "id": 28,
+      "id": "28",
       "nombre": "Kebab",
       "ingredientes": [
         "Ingrediente 1",
@@ -487,7 +626,13 @@
         "Ingrediente 5",
         "Ingrediente 6"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4", "Paso 5"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4",
+        "Paso 5"
+      ],
       "tiempo": 87,
       "imagen": "https://source.unsplash.com/400x300/?food,27",
       "categoria": "desayuno",
@@ -497,10 +642,18 @@
       "esVegetariano": false
     },
     {
-      "id": 29,
+      "id": "29",
       "nombre": "Polenta",
-      "ingredientes": ["Ingrediente 1", "Ingrediente 2", "Ingrediente 3"],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3"],
+      "ingredientes": [
+        "Ingrediente 1",
+        "Ingrediente 2",
+        "Ingrediente 3"
+      ],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3"
+      ],
       "tiempo": 27,
       "imagen": "https://source.unsplash.com/400x300/?food,28",
       "categoria": "elaborado",
@@ -510,7 +663,7 @@
       "esVegetariano": true
     },
     {
-      "id": 30,
+      "id": "30",
       "nombre": "Arepas",
       "ingredientes": [
         "Ingrediente 1",
@@ -519,7 +672,13 @@
         "Ingrediente 4",
         "Ingrediente 5"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4", "Paso 5"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4",
+        "Paso 5"
+      ],
       "tiempo": 33,
       "imagen": "https://source.unsplash.com/400x300/?food,29",
       "categoria": "sano",
@@ -529,10 +688,19 @@
       "esVegetariano": false
     },
     {
-      "id": 31,
+      "id": "31",
       "nombre": "Huevos benedictinos",
-      "ingredientes": ["Ingrediente 1", "Ingrediente 2", "Ingrediente 3"],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4"],
+      "ingredientes": [
+        "Ingrediente 1",
+        "Ingrediente 2",
+        "Ingrediente 3"
+      ],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4"
+      ],
       "tiempo": 32,
       "imagen": "https://source.unsplash.com/400x300/?food,30",
       "categoria": "express",
@@ -542,7 +710,7 @@
       "esVegetariano": true
     },
     {
-      "id": 32,
+      "id": "32",
       "nombre": "Smoothie bowl",
       "ingredientes": [
         "Ingrediente 1",
@@ -552,7 +720,12 @@
         "Ingrediente 5",
         "Ingrediente 6"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4"
+      ],
       "tiempo": 66,
       "imagen": "https://source.unsplash.com/400x300/?food,31",
       "categoria": "sano",
@@ -562,7 +735,7 @@
       "esVegetariano": true
     },
     {
-      "id": 33,
+      "id": "33",
       "nombre": "Chilaquiles",
       "ingredientes": [
         "Ingrediente 1",
@@ -571,7 +744,13 @@
         "Ingrediente 4",
         "Ingrediente 5"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4", "Paso 5"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4",
+        "Paso 5"
+      ],
       "tiempo": 20,
       "imagen": "https://source.unsplash.com/400x300/?food,32",
       "categoria": "internacional",
@@ -581,10 +760,17 @@
       "esVegetariano": true
     },
     {
-      "id": 34,
+      "id": "34",
       "nombre": "Tarta tatin",
-      "ingredientes": ["Ingrediente 1", "Ingrediente 2", "Ingrediente 3"],
-      "pasos": ["Paso 1", "Paso 2"],
+      "ingredientes": [
+        "Ingrediente 1",
+        "Ingrediente 2",
+        "Ingrediente 3"
+      ],
+      "pasos": [
+        "Paso 1",
+        "Paso 2"
+      ],
       "tiempo": 20,
       "imagen": "https://source.unsplash.com/400x300/?food,33",
       "categoria": "desayuno",
@@ -594,10 +780,20 @@
       "esVegetariano": true
     },
     {
-      "id": 35,
+      "id": "35",
       "nombre": "Bruschetta",
-      "ingredientes": ["Ingrediente 1", "Ingrediente 2", "Ingrediente 3"],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4", "Paso 5"],
+      "ingredientes": [
+        "Ingrediente 1",
+        "Ingrediente 2",
+        "Ingrediente 3"
+      ],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4",
+        "Paso 5"
+      ],
       "tiempo": 10,
       "imagen": "https://source.unsplash.com/400x300/?food,34",
       "categoria": "express",
@@ -607,7 +803,7 @@
       "esVegetariano": false
     },
     {
-      "id": 36,
+      "id": "36",
       "nombre": "Quesadillas",
       "ingredientes": [
         "Ingrediente 1",
@@ -615,7 +811,13 @@
         "Ingrediente 3",
         "Ingrediente 4"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4", "Paso 5"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4",
+        "Paso 5"
+      ],
       "tiempo": 48,
       "imagen": "https://source.unsplash.com/400x300/?food,35",
       "categoria": "sano",
@@ -625,7 +827,7 @@
       "esVegetariano": false
     },
     {
-      "id": 37,
+      "id": "37",
       "nombre": "Guacamole",
       "ingredientes": [
         "Ingrediente 1",
@@ -633,7 +835,13 @@
         "Ingrediente 3",
         "Ingrediente 4"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4", "Paso 5"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4",
+        "Paso 5"
+      ],
       "tiempo": 25,
       "imagen": "https://source.unsplash.com/400x300/?food,36",
       "categoria": "postre",
@@ -643,10 +851,19 @@
       "esVegetariano": false
     },
     {
-      "id": 38,
+      "id": "38",
       "nombre": "Arroz chaufa",
-      "ingredientes": ["Ingrediente 1", "Ingrediente 2", "Ingrediente 3"],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4"],
+      "ingredientes": [
+        "Ingrediente 1",
+        "Ingrediente 2",
+        "Ingrediente 3"
+      ],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4"
+      ],
       "tiempo": 71,
       "imagen": "https://source.unsplash.com/400x300/?food,37",
       "categoria": "express",
@@ -656,7 +873,7 @@
       "esVegetariano": false
     },
     {
-      "id": 39,
+      "id": "39",
       "nombre": "Hummus",
       "ingredientes": [
         "Ingrediente 1",
@@ -665,7 +882,10 @@
         "Ingrediente 4",
         "Ingrediente 5"
       ],
-      "pasos": ["Paso 1", "Paso 2"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2"
+      ],
       "tiempo": 35,
       "imagen": "https://source.unsplash.com/400x300/?food,38",
       "categoria": "internacional",
@@ -675,7 +895,7 @@
       "esVegetariano": true
     },
     {
-      "id": 40,
+      "id": "40",
       "nombre": "Pollo teriyaki",
       "ingredientes": [
         "Ingrediente 1",
@@ -684,7 +904,13 @@
         "Ingrediente 4",
         "Ingrediente 5"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4", "Paso 5"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4",
+        "Paso 5"
+      ],
       "tiempo": 11,
       "imagen": "https://source.unsplash.com/400x300/?food,39",
       "categoria": "internacional",
@@ -694,7 +920,7 @@
       "esVegetariano": true
     },
     {
-      "id": 41,
+      "id": "41",
       "nombre": "Salmón al horno",
       "ingredientes": [
         "Ingrediente 1",
@@ -702,7 +928,12 @@
         "Ingrediente 3",
         "Ingrediente 4"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4"
+      ],
       "tiempo": 39,
       "imagen": "https://source.unsplash.com/400x300/?food,40",
       "categoria": "elaborado",
@@ -712,10 +943,20 @@
       "esVegetariano": false
     },
     {
-      "id": 42,
+      "id": "42",
       "nombre": "Tofu stir fry",
-      "ingredientes": ["Ingrediente 1", "Ingrediente 2", "Ingrediente 3"],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4", "Paso 5"],
+      "ingredientes": [
+        "Ingrediente 1",
+        "Ingrediente 2",
+        "Ingrediente 3"
+      ],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4",
+        "Paso 5"
+      ],
       "tiempo": 64,
       "imagen": "https://source.unsplash.com/400x300/?food,41",
       "categoria": "elaborado",
@@ -725,7 +966,7 @@
       "esVegetariano": false
     },
     {
-      "id": 43,
+      "id": "43",
       "nombre": "Fajitas",
       "ingredientes": [
         "Ingrediente 1",
@@ -734,7 +975,10 @@
         "Ingrediente 4",
         "Ingrediente 5"
       ],
-      "pasos": ["Paso 1", "Paso 2"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2"
+      ],
       "tiempo": 15,
       "imagen": "https://source.unsplash.com/400x300/?food,42",
       "categoria": "internacional",
@@ -744,7 +988,7 @@
       "esVegetariano": true
     },
     {
-      "id": 44,
+      "id": "44",
       "nombre": "Tabulé",
       "ingredientes": [
         "Ingrediente 1",
@@ -753,7 +997,12 @@
         "Ingrediente 4",
         "Ingrediente 5"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4"
+      ],
       "tiempo": 27,
       "imagen": "https://source.unsplash.com/400x300/?food,43",
       "categoria": "desayuno",
@@ -763,10 +1012,20 @@
       "esVegetariano": true
     },
     {
-      "id": 45,
+      "id": "45",
       "nombre": "Churros",
-      "ingredientes": ["Ingrediente 1", "Ingrediente 2", "Ingrediente 3"],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4", "Paso 5"],
+      "ingredientes": [
+        "Ingrediente 1",
+        "Ingrediente 2",
+        "Ingrediente 3"
+      ],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4",
+        "Paso 5"
+      ],
       "tiempo": 77,
       "imagen": "https://source.unsplash.com/400x300/?food,44",
       "categoria": "sano",
@@ -776,7 +1035,7 @@
       "esVegetariano": true
     },
     {
-      "id": 46,
+      "id": "46",
       "nombre": "Helado casero",
       "ingredientes": [
         "Ingrediente 1",
@@ -785,7 +1044,11 @@
         "Ingrediente 4",
         "Ingrediente 5"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3"
+      ],
       "tiempo": 88,
       "imagen": "https://source.unsplash.com/400x300/?food,45",
       "categoria": "sano",
@@ -795,10 +1058,18 @@
       "esVegetariano": false
     },
     {
-      "id": 47,
+      "id": "47",
       "nombre": "Lasaña",
-      "ingredientes": ["Ingrediente 1", "Ingrediente 2", "Ingrediente 3"],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3"],
+      "ingredientes": [
+        "Ingrediente 1",
+        "Ingrediente 2",
+        "Ingrediente 3"
+      ],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3"
+      ],
       "tiempo": 70,
       "imagen": "https://source.unsplash.com/400x300/?food,46",
       "categoria": "desayuno",
@@ -808,7 +1079,7 @@
       "esVegetariano": false
     },
     {
-      "id": 48,
+      "id": "48",
       "nombre": "Mac and cheese",
       "ingredientes": [
         "Ingrediente 1",
@@ -816,7 +1087,11 @@
         "Ingrediente 3",
         "Ingrediente 4"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3"
+      ],
       "tiempo": 89,
       "imagen": "https://source.unsplash.com/400x300/?food,47",
       "categoria": "sano",
@@ -826,10 +1101,20 @@
       "esVegetariano": false
     },
     {
-      "id": 49,
+      "id": "49",
       "nombre": "Sopa de cebolla",
-      "ingredientes": ["Ingrediente 1", "Ingrediente 2", "Ingrediente 3"],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4", "Paso 5"],
+      "ingredientes": [
+        "Ingrediente 1",
+        "Ingrediente 2",
+        "Ingrediente 3"
+      ],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4",
+        "Paso 5"
+      ],
       "tiempo": 55,
       "imagen": "https://source.unsplash.com/400x300/?food,48",
       "categoria": "express",
@@ -839,7 +1124,7 @@
       "esVegetariano": false
     },
     {
-      "id": 50,
+      "id": "50",
       "nombre": "Tortilla Española",
       "ingredientes": [
         "Ingrediente 1",
@@ -847,7 +1132,13 @@
         "Ingrediente 3",
         "Ingrediente 4"
       ],
-      "pasos": ["Paso 1", "Paso 2", "Paso 3", "Paso 4", "Paso 5"],
+      "pasos": [
+        "Paso 1",
+        "Paso 2",
+        "Paso 3",
+        "Paso 4",
+        "Paso 5"
+      ],
       "tiempo": 32,
       "imagen": "https://source.unsplash.com/400x300/?food,49",
       "categoria": "internacional",
@@ -855,6 +1146,22 @@
       "descripcion": "Deliciosa receta de Tortilla Española.",
       "esFavorito": true,
       "esVegetariano": false
+    },
+    {
+      "id": "2283",
+      "nombre": "Ensaladilla Rusa",
+      "descripcion": "Hecha con gusto",
+      "categoria": "internacional",
+      "imagen": null,
+      "esVegetariano": true,
+      "calorias": 304,
+      "tiempo": 30,
+      "pasos": [
+        "Guisar"
+      ],
+      "ingredientes": [
+        "Pimiento"
+      ]
     }
   ]
 }
