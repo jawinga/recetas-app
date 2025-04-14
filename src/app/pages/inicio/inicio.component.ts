@@ -100,4 +100,12 @@ export class InicioComponent {
       alert('Revisa los datos!');
     }
   }
+
+  irCrear(): void {
+    const section = document.querySelector('form');
+
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 }

@@ -1,7 +1,5 @@
 @for (receta of recetas; track receta.id) {
 
-<a [routerLink]="['detalle-receta', receta.id]"> </a>
-
 <app-lista-recetas
   [receta]="receta"
   (cambiarFavorito)="enCambiarFavorito($event)"

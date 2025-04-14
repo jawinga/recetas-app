@@ -1,9 +1,6 @@
 <div class="receta-container">
   <div class="receta-img">
-    <img
-      src="https://source.unsplash.com/400x300/?chocolate-cake"
-      alt="Tarta de Chocolate"
-    />
+    <img src="{{ receta.imagen }}" alt="Tarta de Chocolate" />
     <span class="categoria">{{ receta.categoria }}</span>
     <span class="favorito">{{ receta.esFavorito ? "❤️" : "🤍" }}</span>
   </div>

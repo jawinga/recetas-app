@@ -29,7 +29,8 @@ export class ListaRecetasComponent implements OnInit {
     };
   }
 
-  esFavorito(): void {
+  esFavorito(event: Event): void {
+    event.stopPropagation();
     this.receta.esFavorito = !this.receta.esFavorito;
     this.cambiarFavorito.emit(this.receta);
   }

@@ -1,10 +1,14 @@
 <div class="receta-card">
   <div class="receta-img">
-    <img [src]="" [alt]="receta.nombre" />
+    <img [src]="receta.imagen" [alt]="receta.nombre" />
     <div class="categoria" [ngClass]="receta.categoria">
       {{ receta.categoria }}
     </div>
-    <div class="favorito" (click)="esFavorito()" [ngClass]="receta.categoria">
+    <div
+      class="favorito"
+      (click)="esFavorito($event)"
+      [ngClass]="receta.categoria"
+    >
       {{ receta.esFavorito ? "❤️" : "🤍" }}
     </div>
   </div>
