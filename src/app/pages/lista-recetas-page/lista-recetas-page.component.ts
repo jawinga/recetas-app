@@ -14,7 +14,18 @@ export class ListaRecetasPageComponent {
   constructor(private recetaService: RecetaService) {}
 
   enCambiarFavorito(actualizarReceta: Receta) {
-    console.log('Ha cambiado el estado de favorito', actualizarReceta.nombre);
+    this.recetaService
+      .actualizarFavorito(actualizarReceta.id, actualizarReceta.esFavorito)
+      .subscribe(
+        () => {
+          console.log(
+            `✔ Favorito actualizado para: ${actualizarReceta.nombre}`
+          );
+        },
+        (error) => {
+          console.error('❌ Error al actualizar el favorito:', error);
+        }
+      );
   }
 
   ngOnInit(): void {

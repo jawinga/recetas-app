@@ -11,6 +11,7 @@ import { NgFor } from '@angular/common';
 import { RecetaService } from '../../services/receta.service';
 import { Observable } from 'rxjs';
 import { Receta } from '../../models/receta';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-inicio',
@@ -82,6 +83,11 @@ export class InicioComponent {
       this.recetaService.crearReceta(nuevaReceta).subscribe({
         next: (response) => {
           console.log('Se ha añadido la receta al JSON DB', response);
+          Swal.fire({
+            icon: 'success',
+            title: 'Todo bien',
+            text: '¡Se ha añadido la receta a la lista!',
+          });
         },
 
         error: (error) => {

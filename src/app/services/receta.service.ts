@@ -36,4 +36,8 @@ export class RecetaService {
   getRecetasFavoritas(receta: Receta): Observable<Receta[]> {
     return this.http.get<Receta[]>(`${this.apiURL}?esFavorito=true`);
   }
+
+  actualizarFavorito(id: number, esFavorito: boolean): Observable<Receta> {
+    return this.http.patch<Receta>(`${this.apiURL}/${id}`, { esFavorito });
+  }
 }

@@ -21,7 +21,7 @@
       "categoria": "internacional",
       "calorias": 207,
       "descripcion": "Deliciosa receta de Tortilla Española.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": true
     },
     {
@@ -46,7 +46,7 @@
       "categoria": "elaborado",
       "calorias": 710,
       "descripcion": "Deliciosa receta de Paella Valenciana.",
-      "esFavorito": false,
+      "esFavorito": true,
       "esVegetariano": true
     },
     {
@@ -205,7 +205,7 @@
       "categoria": "elaborado",
       "calorias": 236,
       "descripcion": "Deliciosa receta de Sushi roll.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": true
     },
     {
@@ -228,7 +228,7 @@
       "categoria": "elaborado",
       "calorias": 266,
       "descripcion": "Deliciosa receta de Pasta Alfredo.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": false
     },
     {
@@ -296,7 +296,7 @@
       "categoria": "desayuno",
       "calorias": 422,
       "descripcion": "Deliciosa receta de Risotto de setas.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": true
     },
     {
@@ -321,7 +321,7 @@
       "categoria": "desayuno",
       "calorias": 411,
       "descripcion": "Deliciosa receta de Sopa de miso.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": false
     },
     {
@@ -366,7 +366,7 @@
       "categoria": "desayuno",
       "calorias": 400,
       "descripcion": "Deliciosa receta de Ramen casero.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": false
     },
     {
@@ -433,7 +433,7 @@
       "categoria": "sano",
       "calorias": 681,
       "descripcion": "Deliciosa receta de Bizcocho de yogur.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": true
     },
     {
@@ -479,7 +479,7 @@
       "categoria": "internacional",
       "calorias": 743,
       "descripcion": "Deliciosa receta de Crepes.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": false
     },
     {
@@ -521,7 +521,7 @@
       "categoria": "sano",
       "calorias": 473,
       "descripcion": "Deliciosa receta de Muffins.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": true
     },
     {
@@ -589,7 +589,7 @@
       "categoria": "desayuno",
       "calorias": 455,
       "descripcion": "Deliciosa receta de Croquetas de jamón.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": false
     },
     {
@@ -612,7 +612,7 @@
       "categoria": "desayuno",
       "calorias": 573,
       "descripcion": "Deliciosa receta de Falafel.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": true
     },
     {
@@ -659,7 +659,7 @@
       "categoria": "elaborado",
       "calorias": 489,
       "descripcion": "Deliciosa receta de Polenta.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": true
     },
     {
@@ -684,7 +684,7 @@
       "categoria": "sano",
       "calorias": 656,
       "descripcion": "Deliciosa receta de Arepas.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": false
     },
     {
@@ -706,7 +706,7 @@
       "categoria": "express",
       "calorias": 616,
       "descripcion": "Deliciosa receta de Huevos benedictinos.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": true
     },
     {
@@ -799,7 +799,7 @@
       "categoria": "express",
       "calorias": 532,
       "descripcion": "Deliciosa receta de Bruschetta.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": false
     },
     {
@@ -869,7 +869,7 @@
       "categoria": "express",
       "calorias": 577,
       "descripcion": "Deliciosa receta de Arroz chaufa.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": false
     },
     {
@@ -1031,7 +1031,7 @@
       "categoria": "sano",
       "calorias": 409,
       "descripcion": "Deliciosa receta de Churros.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": true
     },
     {
@@ -1097,7 +1097,7 @@
       "categoria": "sano",
       "calorias": 766,
       "descripcion": "Deliciosa receta de Mac and cheese.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": false
     },
     {
@@ -1120,7 +1120,7 @@
       "categoria": "express",
       "calorias": 729,
       "descripcion": "Deliciosa receta de Sopa de cebolla.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": false
     },
     {
@@ -1144,7 +1144,7 @@
       "categoria": "internacional",
       "calorias": 620,
       "descripcion": "Deliciosa receta de Tortilla Española.",
-      "esFavorito": true,
+      "esFavorito": false,
       "esVegetariano": false
     },
     {
@@ -1213,6 +1213,64 @@
       "ingredientes": [
         "rpigjwrg"
       ]
+    },
+    {
+      "id": "2168",
+      "nombre": "Churros",
+      "descripcion": "Churros con chocolate",
+      "categoria": "postre",
+      "imagen": null,
+      "esVegetariano": true,
+      "calorias": 100,
+      "tiempo": 400,
+      "pasos": [
+        "rgger",
+        "regerg"
+      ],
+      "ingredientes": [
+        "rg",
+        "erger"
+      ]
+    },
+    {
+      "id": "9bfd",
+      "nombre": "wrefgrwf",
+      "descripcion": "wrgwropjwrg",
+      "categoria": "sano",
+      "imagen": null,
+      "esVegetariano": true,
+      "calorias": 332,
+      "tiempo": 32,
+      "pasos": [
+        "rgrgeg",
+        "rgregreg",
+        "rger"
+      ],
+      "ingredientes": [
+        "33",
+        "rger",
+        "rgerg"
+      ]
+    },
+    {
+      "id": "3a1c",
+      "nombre": "Pizza Prosciutto",
+      "descripcion": "vihvoirehovihreoi",
+      "categoria": "internacional",
+      "imagen": null,
+      "esVegetariano": true,
+      "calorias": 350,
+      "tiempo": 30,
+      "pasos": [
+        "Preparar masa",
+        "Meter en el horno"
+      ],
+      "ingredientes": [
+        "Tomate",
+        "Mozzarella",
+        "Masa"
+      ],
+      "esFavorito": true
     }
   ]
 }
